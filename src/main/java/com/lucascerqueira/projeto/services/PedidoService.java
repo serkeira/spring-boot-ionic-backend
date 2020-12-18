@@ -19,7 +19,7 @@ public class PedidoService {
 	
 	
 	
-	public Pedido buscar(Integer id) {
+	public Pedido find(Integer id) {
 		
 		Optional<Pedido> obj = repo.findById(id);
 		
